@@ -20,9 +20,6 @@ p{
     color: #17181F;
 }
   
-.li {
-    float: left;
-}
 
 .white-text {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -51,6 +48,12 @@ p{
     margin: 0;
     padding: 0;
     overflow: hidden;
+    width:100%;
+}
+
+.navbar .inline-list .li {
+    width:33.33%;
+    float: left;
 }
 
 .titlebar{
@@ -58,11 +61,12 @@ p{
     background-color: #FF1D57;
 }
 
-.gradientbar{
+.navbar{
     background-image: linear-gradient(to right, #ffffff, #FF1D57);
 }
 
 .hidden-button{
+    width:100%;
     background-color: rgba(0,0,0,0);
     border:none;
     font-size: 15px;
