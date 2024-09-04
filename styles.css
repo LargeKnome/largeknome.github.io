@@ -5,19 +5,23 @@ body{
 h1{
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#ffffff
+    font-size:40px;
+    text-align: center;
+    color:#ffffff;
 }
 
 h2{
 
     margin: 0px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color:#17181F;
+    font-size:35px;
+    color:#ffffff;
 }
 
 p{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #17181F;
+    font-size:30px;
+    color:#ffffff;
 }
   
 
@@ -30,17 +34,46 @@ p{
 }
 
 .content {
-    width: 100%;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding: 5%;
     background-image: linear-gradient(to right, #242833, #402739);
 }
 
 .article {
-    width: 50%;
-    margin-left: auto;
-    margin-right: auto;
     background-color: #e3e9f025;
+    margin-bottom:5%;
+}
+
+.title-bg h1 {
+    
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top:40%;
+    width:100%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-size:100px;
+}
+
+.title-bg h2 {
+    
+    text-align: center;
+    position:absolute;
+    left:50%;
+    top:60%;
+    width:100%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    font-size:70px;
+}
+
+.article .title-bg {
+    background-image: url("Pongdemonium-1.png");
+    position: relative;
+    background-size: cover;
+    height:460px;
 }
 
 .inline-list{
@@ -56,11 +89,6 @@ p{
     float: left;
 }
 
-.titlebar{
-    padding:20px;
-    background-color: #FF1D57;
-}
-
 .navbar{
     background-image: linear-gradient(to right, #ffffff, #FF1D57);
 }
@@ -69,10 +97,8 @@ p{
     width:100%;
     background-color: rgba(0,0,0,0);
     border:none;
-    font-size: 15px;
-    padding:10px;
-    padding-left:30px;
-    padding-right:30px;
+    font-size: 22px;
+    padding:30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #17181F;
 }
