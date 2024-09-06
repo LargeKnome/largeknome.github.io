@@ -3,7 +3,7 @@
 
 h1{
     margin: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size:40px;
     text-align: center;
     color:#ffffff;
@@ -12,20 +12,20 @@ h1{
 h2{
 
     margin: 0px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size:35px;
     color:#ffffff;
 }
 
 p{
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size:30px;
     color:#ffffff;
 }
 
 li{
 
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Open Sans", sans-serif;
     font-size:30px;
     color:#ffffff;
 }
@@ -45,9 +45,15 @@ body{
     background-image: linear-gradient(to right, #242833, #402739);
 }
 
+.banner {
+    background-color: #e3e9f025;
+    margin-bottom:5%;
+}
+
 .article {
     background-color: #e3e9f025;
     margin-bottom:5%;
+    padding: 30px;
 }
 
 .inline-list{
@@ -87,7 +93,7 @@ body{
 }
 
 
-.article .home-title {
+.home-title {
     background-image: url("Images/placeholder-image.png");
     position: relative;
     background-size: cover;
@@ -110,7 +116,7 @@ body{
 }
 
 
-.article .works-title {
+.works-title {
     background-image: url("Images/placeholder-image.png");
     position: relative;
     background-size: cover;
@@ -143,7 +149,7 @@ body{
 }
 
 
-.article .contact-title {
+.contact-title {
     background-image: url("Images/placeholder-image.png");
     position: relative;
     background-size: cover;
