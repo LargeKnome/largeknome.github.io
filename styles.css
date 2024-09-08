@@ -19,14 +19,14 @@ h2{
 
 p{
     font-family: "Open Sans", sans-serif;
-    font-size:30px;
+    font-size:25px;
     color:#ffffff;
 }
 
 li{
 
     font-family: "Open Sans", sans-serif;
-    font-size:30px;
+    font-size:25px;
     color:#ffffff;
 }
 
@@ -158,14 +158,17 @@ body{
 
 /*  NAVBAR FORMATTING */
 
-.navbar .inline-list .li {
+
+nav {
+    background-image: linear-gradient(to right, #ffffff, #FF1D57);
+}
+
+nav .inline-list .li {
     width:33.33%;
     float: left;
 }
 
-.navbar{
-    background-image: linear-gradient(to right, #ffffff, #FF1D57);
-}
+/* NAVBAR BUTTON FORMATTING */
 
 .hidden-button{
     width:100%;
@@ -180,3 +183,17 @@ body{
     background-color: rgba(0,0,25,0.4);
     color:#ffffff;
 }
+
+/* FOOTER FORMATTING */
+
+footer {
+    background-image: linear-gradient(to right, #ffffff, #FF1D57);
+}
+
+footer li {
+    width:28.33%;
+    float:left;
+    color: #17181F;
+    padding: 2.5%
+}
+
